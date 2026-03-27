@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ez-edge-cms",
+  "main": "src/index.tsx",
+  "compatibility_date": "2025-03-07",
+  "compatibility_flags": [],
+  "kv_namespaces": [
+    {
+      "binding": "EZ_CONTENT","id": "191c7cb0a53f4b5bbe6979b82d5c9e32",
+    },
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1,
+  },
+}
